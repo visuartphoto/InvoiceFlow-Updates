@@ -1,15 +1,15 @@
 {
-  "version": "0.3.57",
-  "notes": "v0.3.57 — Tray-Popover als HTML-Popup mit Timer + Projekt-Farben. Klick auf das Tray-Icon öffnet jetzt ein HTML-Popup im App-Look (Lucide-Icons, Lucide-Farben, grosse Timer-Anzeige, alle Tasks scrollbar). Jede Task-Box ist dezent mit der Projekt-Farbe eingefärbt — auch in der App selbst (Projekt-Liste + Task-Liste + Task-Kanban).",
-  "pub_date": "2026-08-13T01:31:00+02:00",
+  "version": "0.3.58",
+  "notes": "v0.3.58 — Tray-Popover als eigenstaendiges Tauri-Fenster. Klick auf das Tray-Icon oeffnet jetzt ein FREI schwebendes HTML-Popup (eigenes WebviewWindow, rahmenlos, transparent, always-on-top), das direkt am Tray-Icon andockt — nicht mehr im App-Frame eingebettet.",
+  "pub_date": "2026-08-13T01:49:00+02:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTcgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpOHlVNlFndHpHRFZFNmUvYTkrS1NpOUtjejRFWC9rZFdjdUFvR1BpT1pqK1lxcklSdWtsQ2RrenhvYUsrSXQxa2FxWk43eE5rY2RFZzh5NWxXUFBtUVU9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzc0OTQJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTcuYXBwLnppcAloYXNoZWQKelFJb1M2N0VTVkNnVDRDeHZGRUdhRHp2cmxNVjkyMWkrVUJpdDhEQlFyQzNMQWZudnJReXF5NllGS0xtc01rSnpSZVZEL2FTQTBDa3JIVWZSTTlaQnc9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.57/InvoiceFlow-0.3.57.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTggbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNXNaeXJtVC91VVdLWHJjS2RYTlhTT2gxQWxEVHhnY1dmSlN1TkFMZFcrMTFXYkRUNkdJMmdzcW5NMjJGOEEzQk5lY3NkQkJIMFAxR216Rmc4cGhIQW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzg1OTcJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTguYXBwLnppcAloYXNoZWQKLzMrd1VrSlNVbkN5eFRkajVMbFZ2UCtUckY5SnZxd0ltTTdQZElSQXMxNldKY1NxVm9EUm9XU0FGTE5mY2MvSDA5K1JkSzBHbUVrQ2pta3NQRS9sQnc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.58/InvoiceFlow-0.3.58.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTcgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpOHlVNlFndHpHRFZFNmUvYTkrS1NpOUtjejRFWC9rZFdjdUFvR1BpT1pqK1lxcklSdWtsQ2RrenhvYUsrSXQxa2FxWk43eE5rY2RFZzh5NWxXUFBtUVU9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzc0OTQJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTcuYXBwLnppcAloYXNoZWQKelFJb1M2N0VTVkNnVDRDeHZGRUdhRHp2cmxNVjkyMWkrVUJpdDhEQlFyQzNMQWZudnJReXF5NllGS0xtc01rSnpSZVZEL2FTQTBDa3JIVWZSTTlaQnc9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.57/InvoiceFlow-0.3.57.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTggbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNXNaeXJtVC91VVdLWHJjS2RYTlhTT2gxQWxEVHhnY1dmSlN1TkFMZFcrMTFXYkRUNkdJMmdzcW5NMjJGOEEzQk5lY3NkQkJIMFAxR216Rmc4cGhIQW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzg1OTcJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTguYXBwLnppcAloYXNoZWQKLzMrd1VrSlNVbkN5eFRkajVMbFZ2UCtUckY5SnZxd0ltTTdQZElSQXMxNldKY1NxVm9EUm9XU0FGTE5mY2MvSDA5K1JkSzBHbUVrQ2pta3NQRS9sQnc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.58/InvoiceFlow-0.3.58.app.zip"
     }
   }
 }
