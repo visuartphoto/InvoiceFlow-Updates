@@ -1,4 +1,0 @@
-untrusted comment: InvoiceFlow v0.3.49 macOS arm64
-RUR2URr9JlHqizQVJ0QHH5GMUconRD1PF6lru9fFRupsmXAxOoLUUpy5J86MyovnH9DVapHMEOgx7RtacUYL7YAv0n9FJUh/MwM=
-trusted comment: timestamp:1786513708	file:InvoiceFlow-0.3.49.app.zip	hashed
-GIlUU1RZsvKkkYLz4sV4bzcVWLGi88qg89X0I4wUvMjSP217KSpXre+fzQTr38luTonYtJ9js13SaqUyF0FzCw==

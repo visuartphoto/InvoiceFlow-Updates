@@ -1,15 +1,15 @@
 {
-  "version": "0.3.49",
-  "notes": "v0.3.49 — Kanban-Drag&Drop + PDF-Tabelle Fixes (via Opus-Review): dragDropEnabled=false (KORREKT — true blockiert WKWebView-Drag), p_wasDrag in onDragStart setzen, pdfmake-Tabelle zieht Padding+Rahmen von Spaltenbreiten ab (14.5mm Ueberstand weg), SwissAddress addressLine1/2 statt street im QR-Zahlteil, MM exakt 2.8346457.",
-  "pub_date": "2026-08-12T05:48:52Z",
+  "version": "0.3.50",
+  "notes": "v0.3.50 — Task-Sessions + File-Path: jede Start/Stop-Iteration als TaskSession mit id/startedAt/endedAt/durationMs (kein Drift, History sichtbar im Project-Header), Task.filePath + Project.folderPath mit Lucide FolderOpen Button (oeffnet im Finder via Tauri shell plugin), Inline-Edit fuer Task-Titel und Datum (Click zum Edit, Enter/Blur zum Speichern), Ziehen-zum-Verschieben Text entfernt.",
+  "pub_date": "2026-08-12T20:41:16Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDkgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXpRVkowUUhINUdNVWNvblJEMVBGNmxydTlmRlJ1cHNtWEF4T29MVVVweTVKODZNeW92bkg5RFZhcEhNRU9neDdSdGFjVVlMN1lBdjBuOUZKVWgvTXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTEzNzA4CWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ5LmFwcC56aXAJaGFzaGVkCkdJbFVVMVJac3ZLa2tZTHo0c1Y0YnpjVldMR2k4OHFnODlYMEk0d1V2TWpTUDIxN0tTcFhyZStmelFUcjM4bHVUb25ZdEo5anMxM1NhcVV5RjBGekN3PT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.49/InvoiceFlow-0.3.49.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTAgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXdCQlQ5Y2ZaNFQ3OEJQMHQyKzNOZ0g3eDNlcTZSc3ZvdS9MMVJhRkFjSEtmUyt3ZEp3MmFyeVpNeXY5VTRvRytmS1IxSUJuRjI5TjRLYVhEOGVqR1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY3MjU1CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUwLmFwcC56aXAJaGFzaGVkCk15SHNDOEZ6OEZFN0JXemp1SmR3N0lVQTV6SmZKMmtSWVpFMU9TcTdGcjlQcUtBcHZpdmtqY1FTc1ZpditPNnFwYVNoVkxUSTJjVHJYV1EzWnF2NENRPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.50/InvoiceFlow-0.3.50.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDkgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXpRVkowUUhINUdNVWNvblJEMVBGNmxydTlmRlJ1cHNtWEF4T29MVVVweTVKODZNeW92bkg5RFZhcEhNRU9neDdSdGFjVVlMN1lBdjBuOUZKVWgvTXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTEzNzA4CWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ5LmFwcC56aXAJaGFzaGVkCkdJbFVVMVJac3ZLa2tZTHo0c1Y0YnpjVldMR2k4OHFnODlYMEk0d1V2TWpTUDIxN0tTcFhyZStmelFUcjM4bHVUb25ZdEo5anMxM1NhcVV5RjBGekN3PT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.49/InvoiceFlow-0.3.49.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTAgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXdCQlQ5Y2ZaNFQ3OEJQMHQyKzNOZ0g3eDNlcTZSc3ZvdS9MMVJhRkFjSEtmUyt3ZEp3MmFyeVpNeXY5VTRvRytmS1IxSUJuRjI5TjRLYVhEOGVqR1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY3MjU1CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUwLmFwcC56aXAJaGFzaGVkCk15SHNDOEZ6OEZFN0JXemp1SmR3N0lVQTV6SmZKMmtSWVpFMU9TcTdGcjlQcUtBcHZpdmtqY1FTc1ZpditPNnFwYVNoVkxUSTJjVHJYV1EzWnF2NENRPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.50/InvoiceFlow-0.3.50.app.zip"
     }
   }
 }
