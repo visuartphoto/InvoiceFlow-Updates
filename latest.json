@@ -1,15 +1,15 @@
 {
-  "version": "0.3.54",
-  "notes": "v0.3.54 — Datei vs Ordner explizit getrennt: Task hat jetzt zwei separate Felder (filePath + folderPath). Task-Edit-Modal hat zwei Picker (Datei waehlen + Ordner waehlen). File-Button (Lucide FileText) oeffnet explizit die verknuepfte Datei, Folder-Button (Lucide FolderOpen) oeffnet den expliziten Task-Ordner oder Projekt-Fallback. resolveTaskFilePath KEIN Fallback mehr auf project.folderPath (sonst hatte der User keine Wahl).",
-  "pub_date": "2026-08-12T22:28:38Z",
+  "version": "0.3.55",
+  "notes": "v0.3.55 — Kanban Card-Layout: Action-Buttons (Pencil, Play, File, Folder, Trash) jetzt am unteren rechten Rand der Card mit dezenter Trennlinie oben. Titel hat jetzt volle Breite statt halbbreite neben den Buttons.",
+  "pub_date": "2026-08-12T22:39:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTQgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdnQlRmM1lhcXA4aFBGTURteUltbjdHVmtNYXIwUWVNcFZ1RDZXbWVFQXZtMEJ6cmduczhoNW4wcklQSlFTZXpsMmNLVGZlYmZYdjJEY0V4d1dzSUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTczNjkyCWZpbGU6SW52b2ljZUZsb3ctMC4zLjU0LmFwcC56aXAJaGFzaGVkCitnODhFUHo4VFdna05OMHkvS2pQaklqMDBNU1dxd1pWMVJVZk5Oa1Z1WCtIZWVvN1dmUk5ZZ09BMmRyNzkwWjdtTG1VR2kydzJZWnpDTzNsWGh6NUFnPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.54/InvoiceFlow-0.3.54.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTUgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXk2L2xzM0dOeEpMODlmM0xnb0RrdFYrUzVVajd0OWhiYzdGWlV3d05jU3Y0Ym82aWI3YXh0bFMzTmdKeW8vT2xLN3RINGlLbXpUcUJHdXpiM2MvYncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTc0MzU5CWZpbGU6SW52b2ljZUZsb3ctMC4zLjU1LmFwcC56aXAJaGFzaGVkCkVUR2JsK0FnYUcrZjh1MmNmYWFFRmZmL2hmZ0xyeFVob01ob3BWSkkwa21mTjRRdkV1QTVKaHdYeW1xVDcwWW9yaXBzL3paZUR2UCtTbm5CbHQ2S0NRPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.55/InvoiceFlow-0.3.55.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTQgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdnQlRmM1lhcXA4aFBGTURteUltbjdHVmtNYXIwUWVNcFZ1RDZXbWVFQXZtMEJ6cmduczhoNW4wcklQSlFTZXpsMmNLVGZlYmZYdjJEY0V4d1dzSUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTczNjkyCWZpbGU6SW52b2ljZUZsb3ctMC4zLjU0LmFwcC56aXAJaGFzaGVkCitnODhFUHo4VFdna05OMHkvS2pQaklqMDBNU1dxd1pWMVJVZk5Oa1Z1WCtIZWVvN1dmUk5ZZ09BMmRyNzkwWjdtTG1VR2kydzJZWnpDTzNsWGh6NUFnPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.54/InvoiceFlow-0.3.54.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTUgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXk2L2xzM0dOeEpMODlmM0xnb0RrdFYrUzVVajd0OWhiYzdGWlV3d05jU3Y0Ym82aWI3YXh0bFMzTmdKeW8vT2xLN3RINGlLbXpUcUJHdXpiM2MvYncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTc0MzU5CWZpbGU6SW52b2ljZUZsb3ctMC4zLjU1LmFwcC56aXAJaGFzaGVkCkVUR2JsK0FnYUcrZjh1MmNmYWFFRmZmL2hmZ0xyeFVob01ob3BWSkkwa21mTjRRdkV1QTVKaHdYeW1xVDcwWW9yaXBzL3paZUR2UCtTbm5CbHQ2S0NRPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.55/InvoiceFlow-0.3.55.app.zip"
     }
   }
 }
