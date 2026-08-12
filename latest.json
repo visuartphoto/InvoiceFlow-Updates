@@ -1,15 +1,15 @@
 {
-  "version": "0.3.50",
-  "notes": "v0.3.50 — Task-Sessions + File-Path: jede Start/Stop-Iteration als TaskSession mit id/startedAt/endedAt/durationMs (kein Drift, History sichtbar im Project-Header), Task.filePath + Project.folderPath mit Lucide FolderOpen Button (oeffnet im Finder via Tauri shell plugin), Inline-Edit fuer Task-Titel und Datum (Click zum Edit, Enter/Blur zum Speichern), Ziehen-zum-Verschieben Text entfernt.",
-  "pub_date": "2026-08-12T20:41:16Z",
+  "version": "0.3.51",
+  "notes": "v0.3.51 — Task-Edit-Modal (Titel textarea + Description + Status + Priority + Dates + EstimatedHours + FilePath mit Folder-Picker). Title-Inline-Edit ist jetzt textarea (mehrzeilige Titel moeglich, Shift+Enter = Zeilenumbruch). Folder-Button oeffnet jetzt das Modal wenn noch kein Pfad gesetzt war (v0.3.50 hatte dafuer keine UI).",
+  "pub_date": "2026-08-12T20:57:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTAgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXdCQlQ5Y2ZaNFQ3OEJQMHQyKzNOZ0g3eDNlcTZSc3ZvdS9MMVJhRkFjSEtmUyt3ZEp3MmFyeVpNeXY5VTRvRytmS1IxSUJuRjI5TjRLYVhEOGVqR1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY3MjU1CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUwLmFwcC56aXAJaGFzaGVkCk15SHNDOEZ6OEZFN0JXemp1SmR3N0lVQTV6SmZKMmtSWVpFMU9TcTdGcjlQcUtBcHZpdmtqY1FTc1ZpditPNnFwYVNoVkxUSTJjVHJYV1EzWnF2NENRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.50/InvoiceFlow-0.3.50.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTEgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXd4YzdYUTVXaHNmSnBRR1JOV2hoR2ZRam1rYXY5RndxUjVESlBvZ0FwV1VjSWhXS2VIT29sTWk3Q2hKd3ZZbEVTblN4TFA0OEFTMkZKTmh6V1RJbHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY4MjI4CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUxLmFwcC56aXAJaGFzaGVkCmhTR0RkVnd3U0t4TTNhaC9EaHVZS3VBVTF5SjVzeHFaNmxXeGh1cmdidjhqZ1hveUw3T0E4ODNscExSNitJM2gyZmw1NEVaSUFjTWp0cXZJckVyMkF3PT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.51/InvoiceFlow-0.3.51.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTAgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXdCQlQ5Y2ZaNFQ3OEJQMHQyKzNOZ0g3eDNlcTZSc3ZvdS9MMVJhRkFjSEtmUyt3ZEp3MmFyeVpNeXY5VTRvRytmS1IxSUJuRjI5TjRLYVhEOGVqR1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY3MjU1CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUwLmFwcC56aXAJaGFzaGVkCk15SHNDOEZ6OEZFN0JXemp1SmR3N0lVQTV6SmZKMmtSWVpFMU9TcTdGcjlQcUtBcHZpdmtqY1FTc1ZpditPNnFwYVNoVkxUSTJjVHJYV1EzWnF2NENRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.50/InvoiceFlow-0.3.50.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTEgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXd4YzdYUTVXaHNmSnBRR1JOV2hoR2ZRam1rYXY5RndxUjVESlBvZ0FwV1VjSWhXS2VIT29sTWk3Q2hKd3ZZbEVTblN4TFA0OEFTMkZKTmh6V1RJbHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY4MjI4CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUxLmFwcC56aXAJaGFzaGVkCmhTR0RkVnd3U0t4TTNhaC9EaHVZS3VBVTF5SjVzeHFaNmxXeGh1cmdidjhqZ1hveUw3T0E4ODNscExSNitJM2gyZmw1NEVaSUFjTWp0cXZJckVyMkF3PT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.51/InvoiceFlow-0.3.51.app.zip"
     }
   }
 }
