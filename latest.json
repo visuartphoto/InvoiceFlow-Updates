@@ -1,15 +1,15 @@
 {
-  "version": "0.3.55",
-  "notes": "v0.3.55 — Kanban Card-Layout: Action-Buttons (Pencil, Play, File, Folder, Trash) jetzt am unteren rechten Rand der Card mit dezenter Trennlinie oben. Titel hat jetzt volle Breite statt halbbreite neben den Buttons.",
-  "pub_date": "2026-08-12T22:39:44Z",
+  "version": "0.3.56",
+  "notes": "v0.3.56 — Tray-Menu zeigt offene Tasks. Klick auf das Tray-Icon öffnet ein Dropdown mit den offenen Tasks (statt die App in den Vordergrund zu holen). Klick auf einen Task navigiert direkt dorthin.",
+  "pub_date": "2026-08-13T01:00:00+02:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTUgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXk2L2xzM0dOeEpMODlmM0xnb0RrdFYrUzVVajd0OWhiYzdGWlV3d05jU3Y0Ym82aWI3YXh0bFMzTmdKeW8vT2xLN3RINGlLbXpUcUJHdXpiM2MvYncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTc0MzU5CWZpbGU6SW52b2ljZUZsb3ctMC4zLjU1LmFwcC56aXAJaGFzaGVkCkVUR2JsK0FnYUcrZjh1MmNmYWFFRmZmL2hmZ0xyeFVob01ob3BWSkkwa21mTjRRdkV1QTVKaHdYeW1xVDcwWW9yaXBzL3paZUR2UCtTbm5CbHQ2S0NRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.55/InvoiceFlow-0.3.55.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTYgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNEpJdHVGU0dQS29oUzNYVTZRMkhiTmpVL3h2a2RDRW1JcTZ0bmZsWlFybVR5Z05NUVpzY3Z6T2g1bEZrVHBxRS9JcGkzSEJSUWVEcXd6Z2pRSGhtQUE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1NzU2NTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTYuYXBwLnppcAloYXNoZWQKYUN0MnVUTnhJeGw0OXhnd0JqaFc0YUQ1MDVjTFB4QnY3MFlrMHZRTUhDNFRWUk8rMmZ2SDJHZThDTkxUQUNRMEpoUUIzMG9JN1d5d2FCOVBUYVB3QWc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.56/InvoiceFlow-0.3.56.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTUgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXk2L2xzM0dOeEpMODlmM0xnb0RrdFYrUzVVajd0OWhiYzdGWlV3d05jU3Y0Ym82aWI3YXh0bFMzTmdKeW8vT2xLN3RINGlLbXpUcUJHdXpiM2MvYncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTc0MzU5CWZpbGU6SW52b2ljZUZsb3ctMC4zLjU1LmFwcC56aXAJaGFzaGVkCkVUR2JsK0FnYUcrZjh1MmNmYWFFRmZmL2hmZ0xyeFVob01ob3BWSkkwa21mTjRRdkV1QTVKaHdYeW1xVDcwWW9yaXBzL3paZUR2UCtTbm5CbHQ2S0NRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.55/InvoiceFlow-0.3.55.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTYgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNEpJdHVGU0dQS29oUzNYVTZRMkhiTmpVL3h2a2RDRW1JcTZ0bmZsWlFybVR5Z05NUVpzY3Z6T2g1bEZrVHBxRS9JcGkzSEJSUWVEcXd6Z2pRSGhtQUE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1NzU2NTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTYuYXBwLnppcAloYXNoZWQKYUN0MnVUTnhJeGw0OXhnd0JqaFc0YUQ1MDVjTFB4QnY3MFlrMHZRTUhDNFRWUk8rMmZ2SDJHZThDTkxUQUNRMEpoUUIzMG9JN1d5d2FCOVBUYVB3QWc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.56/InvoiceFlow-0.3.56.app.zip"
     }
   }
 }
