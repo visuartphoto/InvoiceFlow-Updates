@@ -1,15 +1,15 @@
 {
-  "version": "0.3.47",
-  "notes": "v0.3.47 — Bugfixes: Kanban-Drag (4× $derived(()=>{}) → $derived.by), View-Persistenz für Tasks-Tab + robuster via Setter (kein $effect-Race), Timer-Start-Button vergrößert (text-[10px]→text-[12px]), formatHours(0) zeigt '0 h' statt '—' für Live-Aufwand, Tray-Icon mit Tooltip.",
-  "pub_date": "2026-08-12T03:59:05Z",
+  "version": "0.3.48",
+  "notes": "v0.3.48 — Kanban-Drop Fix: Tauri 2 dragDropEnabled=true (war default false auf macOS). HTML5 Drag&Drop funktioniert jetzt vollständig in der Webview (Drop auf andere Spalte snapt die Card dorthin).",
+  "pub_date": "2026-08-12T04:12:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDcgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXl3amNyZWNtNWVuWnplbmN2My9yQWF0bnpHWHBsVXgxdXVjSXhFYWsvcmc0L2g2bTAycnliNHcrVHQ0KzhFR2lxWGIzS1lib2FJNStKdGNNTlFpc2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTA3MDgwCWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ3LmFwcC56aXAJaGFzaGVkCmwxaFlUQSszNUp2YU02TWc1ZXNKaDBEQTlPb1pwa0tuRjNIbk5iZE9DQ2M0aVhUMUpVYlMwTTF3ZDMvMTVQOE4vZHRMQ2ZYVDREYXgwLzdQMnpEUUJRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.47/InvoiceFlow-0.3.47.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDggbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXpkSEV5ZTVGVW5mOVA0bk9pZGpTN0Zud004QUhXQWVxY3NCZHdwazd2aE1mZDNyNCsvTlg2b29WdEhjc3VQcUZIU25DZEJDSTVDT0VuMllNdURHK2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTA3OTQwCWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ4LmFwcC56aXAJaGFzaGVkCk55Y3pPU3QwdG9rcUhoNXA5NFBCVHdmdWltTmdQaGZRS2UrL2VQVGt4WUU2K3M5dDQ5SnhvbWR5aGZQYnhkN0RPeTRmNDFtUmVRZG1GendnQWFhcUJnPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.48/InvoiceFlow-0.3.48.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDcgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXl3amNyZWNtNWVuWnplbmN2My9yQWF0bnpHWHBsVXgxdXVjSXhFYWsvcmc0L2g2bTAycnliNHcrVHQ0KzhFR2lxWGIzS1lib2FJNStKdGNNTlFpc2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTA3MDgwCWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ3LmFwcC56aXAJaGFzaGVkCmwxaFlUQSszNUp2YU02TWc1ZXNKaDBEQTlPb1pwa0tuRjNIbk5iZE9DQ2M0aVhUMUpVYlMwTTF3ZDMvMTVQOE4vZHRMQ2ZYVDREYXgwLzdQMnpEUUJRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.47/InvoiceFlow-0.3.47.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNDggbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaXpkSEV5ZTVGVW5mOVA0bk9pZGpTN0Zud004QUhXQWVxY3NCZHdwazd2aE1mZDNyNCsvTlg2b29WdEhjc3VQcUZIU25DZEJDSTVDT0VuMllNdURHK2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTA3OTQwCWZpbGU6SW52b2ljZUZsb3ctMC4zLjQ4LmFwcC56aXAJaGFzaGVkCk55Y3pPU3QwdG9rcUhoNXA5NFBCVHdmdWltTmdQaGZRS2UrL2VQVGt4WUU2K3M5dDQ5SnhvbWR5aGZQYnhkN0RPeTRmNDFtUmVRZG1GendnQWFhcUJnPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.48/InvoiceFlow-0.3.48.app.zip"
     }
   }
 }
