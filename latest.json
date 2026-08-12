@@ -1,15 +1,15 @@
 {
-  "version": "0.3.52",
-  "notes": "v0.3.52 — shell.open regex erweitert damit auch lokale Datei-Pfade erlaubt sind (v0.3.51 hatte nur http/https/mailto/tel, lokale Pfade wurden rejected). Bestaetigt: file:///, https?://, mailto:, tel:, und absolute Unix-Pfade (/...) werden jetzt akzeptiert. Fehlermeldung im UI zeigt jetzt die genaue Tauri-Fehlermeldung statt nur 'Datei konnte nicht geoeffnet werden'.",
-  "pub_date": "2026-08-12T21:10:49Z",
+  "version": "0.3.53",
+  "notes": "v0.3.53 — shell.open regex: Tauri umschliesst custom regex mit ^...$ (full-match). v0.3.52 hatte /[^/] was nur 1 Zeichen nach / erlaubt. Jetzt /.+ (1+ beliebige Zeichen). Matcht lange Datei-Pfade wie /Users/.../Reisetag26 Vorlage/vorlage.pdf.",
+  "pub_date": "2026-08-12T21:59:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTIgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdOcHlRemxLVUR1WmMvQmhuN29VRjRSMnh1cXhWZ293d0xUSTMwWnhjaERic25JTmI1WnhZbVJzeTBOVlNkbmFvbTJZalppOGhUOFcyQjh4VkdKamdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY5MDI0CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUyLmFwcC56aXAJaGFzaGVkCklLWUUyWE1JUnpXYVorWTFpL0JKRXh4SUFZMFpKMFo5dkNERWZlZ2tUbFZpQTVURXZvaWhlQzNQQXcxZ3NDZUUvUkw5dzFSMUdkNWlnbXVxbFNITERRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.52/InvoiceFlow-0.3.52.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTMgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTZmU2ZxRkswVCtscnJrZUVOdkl1MWNpWmFQb1NvNFNSNThTUCt1UGhqS09Jc21yMGJ1Ni9tWGdDN3AwcGlTYUJ6dVMwT005QWdpYThZeUZLbjlJOUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTcxOTQzCWZpbGU6SW52b2ljZUZsb3ctMC4zLjUzLmFwcC56aXAJaGFzaGVkCkU3aFJaWnBRV3hETEdoaUdSRVNuZVJQa0xzN3FycFdtb0NYQWVZeVJuRjEvWU02TXFjUEpHNkFrdkdEbStLUFVYckZnTHRJV0xHSm9YNThpNVlSRkRBPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.53/InvoiceFlow-0.3.53.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTIgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdOcHlRemxLVUR1WmMvQmhuN29VRjRSMnh1cXhWZ293d0xUSTMwWnhjaERic25JTmI1WnhZbVJzeTBOVlNkbmFvbTJZalppOGhUOFcyQjh4VkdKamdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTY5MDI0CWZpbGU6SW52b2ljZUZsb3ctMC4zLjUyLmFwcC56aXAJaGFzaGVkCklLWUUyWE1JUnpXYVorWTFpL0JKRXh4SUFZMFpKMFo5dkNERWZlZ2tUbFZpQTVURXZvaWhlQzNQQXcxZ3NDZUUvUkw5dzFSMUdkNWlnbXVxbFNITERRPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.52/InvoiceFlow-0.3.52.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTMgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTZmU2ZxRkswVCtscnJrZUVOdkl1MWNpWmFQb1NvNFNSNThTUCt1UGhqS09Jc21yMGJ1Ni9tWGdDN3AwcGlTYUJ6dVMwT005QWdpYThZeUZLbjlJOUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTcxOTQzCWZpbGU6SW52b2ljZUZsb3ctMC4zLjUzLmFwcC56aXAJaGFzaGVkCkU3aFJaWnBRV3hETEdoaUdSRVNuZVJQa0xzN3FycFdtb0NYQWVZeVJuRjEvWU02TXFjUEpHNkFrdkdEbStLUFVYckZnTHRJV0xHSm9YNThpNVlSRkRBPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.53/InvoiceFlow-0.3.53.app.zip"
     }
   }
 }
