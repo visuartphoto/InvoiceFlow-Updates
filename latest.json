@@ -1,15 +1,15 @@
 {
-  "version": "0.3.53",
-  "notes": "v0.3.53 — shell.open regex: Tauri umschliesst custom regex mit ^...$ (full-match). v0.3.52 hatte /[^/] was nur 1 Zeichen nach / erlaubt. Jetzt /.+ (1+ beliebige Zeichen). Matcht lange Datei-Pfade wie /Users/.../Reisetag26 Vorlage/vorlage.pdf.",
-  "pub_date": "2026-08-12T21:59:30Z",
+  "version": "0.3.54",
+  "notes": "v0.3.54 — Datei vs Ordner explizit getrennt: Task hat jetzt zwei separate Felder (filePath + folderPath). Task-Edit-Modal hat zwei Picker (Datei waehlen + Ordner waehlen). File-Button (Lucide FileText) oeffnet explizit die verknuepfte Datei, Folder-Button (Lucide FolderOpen) oeffnet den expliziten Task-Ordner oder Projekt-Fallback. resolveTaskFilePath KEIN Fallback mehr auf project.folderPath (sonst hatte der User keine Wahl).",
+  "pub_date": "2026-08-12T22:28:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTMgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTZmU2ZxRkswVCtscnJrZUVOdkl1MWNpWmFQb1NvNFNSNThTUCt1UGhqS09Jc21yMGJ1Ni9tWGdDN3AwcGlTYUJ6dVMwT005QWdpYThZeUZLbjlJOUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTcxOTQzCWZpbGU6SW52b2ljZUZsb3ctMC4zLjUzLmFwcC56aXAJaGFzaGVkCkU3aFJaWnBRV3hETEdoaUdSRVNuZVJQa0xzN3FycFdtb0NYQWVZeVJuRjEvWU02TXFjUEpHNkFrdkdEbStLUFVYckZnTHRJV0xHSm9YNThpNVlSRkRBPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.53/InvoiceFlow-0.3.53.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTQgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdnQlRmM1lhcXA4aFBGTURteUltbjdHVmtNYXIwUWVNcFZ1RDZXbWVFQXZtMEJ6cmduczhoNW4wcklQSlFTZXpsMmNLVGZlYmZYdjJEY0V4d1dzSUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTczNjkyCWZpbGU6SW52b2ljZUZsb3ctMC4zLjU0LmFwcC56aXAJaGFzaGVkCitnODhFUHo4VFdna05OMHkvS2pQaklqMDBNU1dxd1pWMVJVZk5Oa1Z1WCtIZWVvN1dmUk5ZZ09BMmRyNzkwWjdtTG1VR2kydzJZWnpDTzNsWGh6NUFnPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.54/InvoiceFlow-0.3.54.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTMgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTZmU2ZxRkswVCtscnJrZUVOdkl1MWNpWmFQb1NvNFNSNThTUCt1UGhqS09Jc21yMGJ1Ni9tWGdDN3AwcGlTYUJ6dVMwT005QWdpYThZeUZLbjlJOUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTcxOTQzCWZpbGU6SW52b2ljZUZsb3ctMC4zLjUzLmFwcC56aXAJaGFzaGVkCkU3aFJaWnBRV3hETEdoaUdSRVNuZVJQa0xzN3FycFdtb0NYQWVZeVJuRjEvWU02TXFjUEpHNkFrdkdEbStLUFVYckZnTHRJV0xHSm9YNThpNVlSRkRBPT0K",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.53/InvoiceFlow-0.3.53.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTQgbWFjT1MgYXJtNjQKUlVSMlVScjlKbEhxaTdnQlRmM1lhcXA4aFBGTURteUltbjdHVmtNYXIwUWVNcFZ1RDZXbWVFQXZtMEJ6cmduczhoNW4wcklQSlFTZXpsMmNLVGZlYmZYdjJEY0V4d1dzSUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTczNjkyCWZpbGU6SW52b2ljZUZsb3ctMC4zLjU0LmFwcC56aXAJaGFzaGVkCitnODhFUHo4VFdna05OMHkvS2pQaklqMDBNU1dxd1pWMVJVZk5Oa1Z1WCtIZWVvN1dmUk5ZZ09BMmRyNzkwWjdtTG1VR2kydzJZWnpDTzNsWGh6NUFnPT0K",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.54/InvoiceFlow-0.3.54.app.zip"
     }
   }
 }
