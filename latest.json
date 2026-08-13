@@ -1,15 +1,15 @@
 {
-  "version": "0.3.64",
-  "notes": "v0.3.64 — ALLE Tasks im Tray (kein Status-Filter) + Sync zuverlaessiger. Das Menu zeigt jetzt ALLE Tasks unabhaengig vom Status (auch done/cancelled). Bei Task-Wechsel wird sofort komplett resynct.",
-  "pub_date": "2026-08-13T03:23:00+02:00",
+  "version": "0.3.65",
+  "notes": "v0.3.65 — ECHTER Fix fuer Tray-Menu (Opus-Handoff): TaskInfo camelCase-Serde. Die Tasks erscheinen jetzt WIRKLICH im Tray-Menu. Projekt-Gruppierung und aktive Task funktionieren wie vorgesehen.",
+  "pub_date": "2026-08-13T03:57:00+02:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjQgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpOWdxZEN1VUpxSjk5OUszS3FjanVVa0hlZ3k0M2hJVzg1bWVTaUEyaTJIeDQ2SUUranhaSTRKR1QzVWYzRm9WdEtNR3lUL1pkVDRVdkVBQkFkbU1yQW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1ODQyMTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjQuYXBwLnppcAloYXNoZWQKYzNEMmcwNVE1QnNROEVzUHR0bzB0KzNLWFptRGlhZUlHYk9Ud0RPNVBTRXZBVmRyeVk5cTZrYTlYOEVLd21UVFNpN1MwNlQ0UVRIM1UwUWhid0RZQ1E9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.64/InvoiceFlow-0.3.64.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjUgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpL2xyT2pGZDVUdm9kcUVOMFBJSXhLRERzYThJcXFwRG4rUFZrTC92Y2gvSmMyVGxBckZuVXJEZHBZdCtiMkNnZ3lwZXphdFRmekptb3NMcDRZUlBRd2M9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1ODYyNTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjUuYXBwLnppcAloYXNoZWQKWmk0NERha2I2WG1KNjZpT0JtNStFbzd3dHV4dFJJL24xS0VyQnl6bjIxTHcwTm9SWUpRSHg5SEwydUkzUjBCVjUwWHI0emJVcDRLTzJiK3U1S0ZMRGc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.65/InvoiceFlow-0.3.65.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjQgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpOWdxZEN1VUpxSjk5OUszS3FjanVVa0hlZ3k0M2hJVzg1bWVTaUEyaTJIeDQ2SUUranhaSTRKR1QzVWYzRm9WdEtNR3lUL1pkVDRVdkVBQkFkbU1yQW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1ODQyMTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjQuYXBwLnppcAloYXNoZWQKYzNEMmcwNVE1QnNROEVzUHR0bzB0KzNLWFptRGlhZUlHYk9Ud0RPNVBTRXZBVmRyeVk5cTZrYTlYOEVLd21UVFNpN1MwNlQ0UVRIM1UwUWhid0RZQ1E9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.64/InvoiceFlow-0.3.64.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjUgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpL2xyT2pGZDVUdm9kcUVOMFBJSXhLRERzYThJcXFwRG4rUFZrTC92Y2gvSmMyVGxBckZuVXJEZHBZdCtiMkNnZ3lwZXphdFRmekptb3NMcDRZUlBRd2M9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1ODYyNTIJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjUuYXBwLnppcAloYXNoZWQKWmk0NERha2I2WG1KNjZpT0JtNStFbzd3dHV4dFJJL24xS0VyQnl6bjIxTHcwTm9SWUpRSHg5SEwydUkzUjBCVjUwWHI0emJVcDRLTzJiK3U1S0ZMRGc9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.65/InvoiceFlow-0.3.65.app.zip"
     }
   }
 }
