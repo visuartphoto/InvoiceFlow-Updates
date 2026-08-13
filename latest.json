@@ -1,15 +1,15 @@
 {
-  "version": "0.3.59",
-  "notes": "v0.3.59 — OneDrive-Style Tray-Popover. Klick auf das Tray-Icon oeffnet ein schmales, kompaktes HTML-Popup (360px breit) im OneDrive-Look: blauer Header mit App-Logo, Timer oder Task-Liste zentriert, dezenter Footer. Position: direkt unter dem Tray-Icon andockend (nicht mehr am Bildschirm-Rand).",
-  "pub_date": "2026-08-13T02:04:00+02:00",
+  "version": "0.3.60",
+  "notes": "v0.3.60 — Zurueck zum nativen macOS-Tray-Menu (wie v0.3.56). Klick auf das Tray-Icon oeffnet ein natives OS-Menu (vom System gerendert, wie z.B. das macOS-WLAN-Menu) mit den offenen Tasks, Timer-Status und Stop/Oeffnen/Beenden.",
+  "pub_date": "2026-08-13T02:13:00+02:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTkgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpMVA5eWVUSUdGWmZmUjQ1cFdpMkJmcDRPMEVEUkdYQ2lPcEg0TCt2aFpYQVBRSjJhOFVYZXJpZFMveTB1OFhWVzFzWEZWN1Q4UEI5cW01ZFZLQjhoZ3c9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzk0ODYJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTkuYXBwLnppcAloYXNoZWQKOWlkMmlPN2hvMWxQYW9RV29HMWp4QmtXVkJGbnE4NlVyM3Z4dmRtVlREb3Z0KzNxSE8vbnQ2ZHJ5MFVMQStrbWZsVDBSMVRBOW1HaG50SE5KVFVaQUE9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.59/InvoiceFlow-0.3.59.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjAgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNXN4aUZad0Q0MENzOUQ4V3RnSERlMFJUVXlCODVIRzUvLy82Tk1VVGJaZEtZS2FSMFNBWXRjd1BzckwrOGh6QVRnTjJJaXI1V0VoQWRkMFhVdFhYd0k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzk5OTkJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjAuYXBwLnppcAloYXNoZWQKUDVaeGluRStXYm5HenkvYXVaemprQ3lDbk1ZMVpVMW9yWXhuR2pMV2NYMGxmR3MxbmQxRWRFVGZBSm1laDVxNkRBa2dJQlhkekYrelRhMDU1RWxpQ2c9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.60/InvoiceFlow-0.3.60.app.zip"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNTkgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpMVA5eWVUSUdGWmZmUjQ1cFdpMkJmcDRPMEVEUkdYQ2lPcEg0TCt2aFpYQVBRSjJhOFVYZXJpZFMveTB1OFhWVzFzWEZWN1Q4UEI5cW01ZFZLQjhoZ3c9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzk0ODYJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNTkuYXBwLnppcAloYXNoZWQKOWlkMmlPN2hvMWxQYW9RV29HMWp4QmtXVkJGbnE4NlVyM3Z4dmRtVlREb3Z0KzNxSE8vbnQ2ZHJ5MFVMQStrbWZsVDBSMVRBOW1HaG50SE5KVFVaQUE9PQo=",
-      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.59/InvoiceFlow-0.3.59.app.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IEludm9pY2VGbG93IHYwLjMuNjAgbWFjT1MgYWFyY2g2NApSVVIyVVJyOUpsSHFpNXN4aUZad0Q0MENzOUQ4V3RnSERlMFJUVXlCODVIRzUvLy82Tk1VVGJaZEtZS2FSMFNBWXRjd1BzckwrOGh6QVRnTjJJaXI1V0VoQWRkMFhVdFhYd0k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3ODY1Nzk5OTkJZmlsZTpJbnZvaWNlRmxvdy0wLjMuNjAuYXBwLnppcAloYXNoZWQKUDVaeGluRStXYm5HenkvYXVaemprQ3lDbk1ZMVpVMW9yWXhuR2pMV2NYMGxmR3MxbmQxRWRFVGZBSm1laDVxNkRBa2dJQlhkekYrelRhMDU1RWxpQ2c9PQo=",
+      "url": "https://github.com/visuartphoto/InvoiceFlow-Updates/releases/download/v0.3.60/InvoiceFlow-0.3.60.app.zip"
     }
   }
 }
